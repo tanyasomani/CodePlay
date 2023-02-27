@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*
+{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.navdiv {
+  width: 100vw;
+  background-color: white;
+  border-bottom: 2px solid rgb(151, 170, 188);
+  position: fixed;
+}
+.mixdiv{
+  display: flex;
+  padding-top: 64px;
+}         
+.leftdiv{
+  border-right: 2px solid rgb(151, 170, 188);
+
+
+  position: fixed;
+  width: 15%;
+  height: 100vh;
+ 
+}
+
+.middiv{
+  width: 70%;
+  margin: auto;
+}
+@media only screen and (max-width: 1199px) {
+  .middiv{
+    width: 80%;
+    margin-right: 0px;
+  }
+}
+
+.rightdiv{
+  border-left: 2px solid  rgb(151, 170, 188);
+  position: fixed;
+  right: 0px;
+  width: 15%;
+  height: 100vh;
+  
+}
+@media only screen and (max-width: 1199px) {
+  .rightdiv{
+    border: none;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+fieldset
+{
+  border:2px solid gray;
+}
+
+
+
+.token.tag, .token.selector {
+    color: #800000;
+   
+  }
+  
+  
+  .token.attr-name, .token.property, .token.regex, .token.entity {
+    color: #ff0000;
+  }
+  
+  
+  .token.atrule, .token.keyword, .token.attr-value, .language-autohotkey .token.selector, .language-json .token.boolean, .language-json .token.number, code[class*="language-css"] {
+    color: #0000ff;
+  
+  }
+
+  input[type=checkbox]
+  {
+    accent-color: blue;
+  }
+
+  input[type=radio]
+  {
+    accent-color: blue;
+  }
+
+  #midnav, .rightdiv
+  {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #001737;
+    text-align: left;
+  }
+
+  pre{
+  
+   font-family: 'Roboto', sans-serif;
+
+  }
+
+
+
+  
+  
+
